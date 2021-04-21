@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Community Science Museum</title>
+    <style>
+      #map {
+        height: 400px;
+        width: 100%;
+      }
+    </style>
+    <script>
+      // Initialize and add the map
+      function initMap() {
+        // The location of Uluru
+        const uluru = { lat: 67.282009, lng: 14.383237 };
+        // The map, centered at Uluru
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 16,
+          center: uluru,
+        });
+        // The marker, positioned at Uluru
+        const marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+        });
+      }
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html"><img src="/images/logo.png" alt="Logo" /></a>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="current">Home</a></li>
+          <li><a href="explore.html">Explore</a></li>
+          <li><a href="exhibition.html">Exhibition Spaces</a></li>
+          <li><a href="visit.html">Visit</a></li>
+          <li><a href="involved.html">Get Involved</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div>
+          <h1>Explore together</h1>
+          <p>Come join us at the Community Science Museum where we’re committed to making science accessible to all.</p>
+          <p>
+            Over the course of human history, science has developed from our early understanding of fire, wind, water,
+            and earth to exploring everything from galaxies far away to the very building blocks of life itself.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div id="map"></div>
+        <script
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGljCXD8tAm-7ZKpM-MfbZXL-BVOBkoF&map_ids=e6380beedd966673&callback=initMap&libraries=&v=weekly"
+          async
+        ></script>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <a href="index.html" class="a_heading">The museum</a>
+        <a href="index.html" class="current">Home</a>
+        <a href="involved.html">Get involved</a>
+        <a href="involved.html#volunteer"></a>
+      </div>
+
+      <div>
+        <a href="explore.html" class="a_heading">What to do</a>
+        <a href="explore.html">Explore</a>
+        <a href="exhibition.html">Exhibitions</a>
+      </div>
+
+      <div>
+        <a href="visit.html" class="a_heading">Come see us</a>
+        <a href="visit.html">Visit</a>
+        <a href="visit.html#maplocation">See map location</a>
+      </div>
+
+      <div>
+        <a href="contact.html" class="a_heading">Contact us</a>
+        <p>+47 999 99 999</p>
+        <a href="mailto:mail@csm.no">mail@csm.no</a>
+        <p>Museum road 24</p>
+        <p>8001 Bodø</p>
+      </div>
+
+      <div>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+
+      <p>Copyright (c) 2021 - Community Science Museum - Org.nr: 999999999</p>
+    </footer>
+
+    <i class="fas fa-arrow-up"></i>
+  </body>
+</html>

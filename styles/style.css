@@ -1,0 +1,40 @@
+@import url("https://use.typekit.net/oym6khu.css");
+
+img {
+  max-width: 100%;
+}
+h1 {
+  font-family: newbery-sans-pro, verdana, sans-serif;
+  font-size: 2.2em;
+  font-weight: 400;
+  color: #fff;
+}
+
+h2 {
+  font-family: sys-tt, tahoma, sans-serif;
+  font-size: 2.5em;
+  font-weight: 400;
+  color: #091540;
+}
+
+h3 {
+  font-family: sys-tt, tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.yellow_h2 {
+  font-family: rift, helvetica, sans-serif;
+  font-size: 2.9em;
+  font-weight: 700;
+  font-style: italic;
+  color: #091540;
+}
+
+p {
+  font-family: raleway, verdana, sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  color: #091540;
+}
