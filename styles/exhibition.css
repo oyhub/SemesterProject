@@ -1,0 +1,46 @@
+/* Hero */
+.hero_background {
+  background-image: url(../images/celso-405219.jpg);
+}
+
+/* Main */
+main section h2 {
+  padding-top: 40px;
+  padding-left: 10px;
+}
+
+main section p {
+  padding: 10px;
+}
+
+.text_card_2 {
+  display: grid;
+  padding-bottom: 40px;
+}
+
+.width_control img {
+  grid-row: 3/4;
+  padding: 10px;
+  max-height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Article */
+.card_exhibition img {
+  width: 100%;
+}
+.yellow_wrap {
+  display: grid;
+  gap: 15px;
+  justify-content: center;
+}
+.yellow_wrap h2 {
+  justify-self: start;
+}
+.yellow_wrap h3 {
+  font-size: 2em;
+}
+.yellow_wrap p {
+  padding: 10px 10px 25px 10px;
+}

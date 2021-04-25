@@ -58,51 +58,12 @@
 }
 
 /* Article */
-.yellow_container {
-  background-color: #ffd400;
-  width: 100%;
-}
-
-.yellow_wrap {
-  width: 80%;
-  margin: 0 auto;
-  padding-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.yellow_h2 {
-  font-size: 1.8em;
-  text-align: center;
-}
 .some {
   display: none;
 }
 
 .hide {
   display: none;
-}
-
-.card_exhibition {
-  background-color: #fff;
-  max-width: 385px;
-}
-
-.card_exhibition p {
-  padding: 0 0 25px 10px;
-}
-
-.card_exhibition img {
-  height: 180px;
-  object-fit: cover;
-}
-
-.yellow_wrap .cta_red {
-  font-size: 1em;
-  margin: 20px 0;
-  width: 100%;
-  max-width: 385px;
 }
 
 /* Footer */

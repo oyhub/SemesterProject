@@ -3,6 +3,7 @@
   nav li {
     padding-left: 50px;
   }
+  /* Main */
 }
 
 @media only screen and (min-width: 560px) {
@@ -46,12 +47,44 @@
   .copyright .hide {
     display: inline;
   }
-  .card_blue li {
-    font-size: 1.1em;
-  }
 }
 
 @media only screen and (min-width: 767px) {
+  /* Main */
+  main section img {
+    height: 100%;
+    max-height: 410px;
+    max-width: 375px;
+  }
+  .text_card_3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .text_card_3 h2 {
+    grid-column: 1/4;
+  }
+  .text_card_3 img {
+    grid-area: 2/3/6/4;
+  }
+  .text_card_3 p {
+    grid-column: 1/3;
+    padding-right: 40px;
+  }
+
+  .teachers img {
+    grid-column: 1/2;
+    padding-left: 0;
+    height: 100%;
+  }
+  .teachers p {
+    grid-column: 2/4;
+    padding-right: 10px;
+    padding-left: 30px;
+  }
+  .researchers p {
+    grid-column: 1/4;
+    padding: 10px;
+  }
+  /* Index */
   .index_container {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
@@ -97,6 +130,29 @@
   .card_opening div:nth-of-type(2) {
     grid-row: 3/4;
   }
+
+  /* Exhibition */
+  .text_card_2 h2 {
+    grid-column: 1/3;
+  }
+  .text_card_2 p {
+    grid-column: 1/3;
+  }
+  .text_card_2 p:nth-of-type(2) {
+    grid-area: 3/2/4/3;
+  }
+  .text_card_2 p:nth-of-type(3) {
+    grid-area: 4/2/5/3;
+  }
+  .text_card_2 img {
+    grid-row: 3/6;
+  }
+  .robo_card img {
+    grid-row: 2/3;
+  }
+  .robo_card p {
+    grid-area: 2/2/3/3;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -105,6 +161,11 @@
   .yellow_wrap,
   .footer {
     max-width: 1300px;
+  }
+  .width_control,
+  .hero_explore .container,
+  .hero_exhibition .container {
+    max-width: 1100px;
   }
   /* Header */
   .menu-top {
@@ -131,10 +192,19 @@
     display: none;
   }
   .hero {
-    background-image: url(../images/exhibition-1863344_1920.jpg);
     height: 450px;
     background-size: cover;
     margin-bottom: 80px;
+  }
+  .hero_index {
+    background-image: url(../images/exhibition-1863344_1920.jpg);
+  }
+  .hero_explore {
+    background-image: url(../images/roberto-nickson-396152.jpg);
+  }
+  .hero_exhibition {
+    background-image: url(../images/celso-405219.jpg);
+    background-position: center;
   }
   .hero .container {
     width: 90%;
@@ -155,6 +225,9 @@
     width: 90%;
   }
   /* Index */
+  .card_blue li {
+    font-size: 1.1em;
+  }
   .index_container {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -223,6 +296,40 @@
     padding-left: 10px;
   }
 
+  /* Exhibition */
+  .text_card_2 h2,
+  .text_card_2 p {
+    grid-column: unset;
+  }
+  .text_card_2 p:nth-of-type(2),
+  .text_card_2 p:nth-of-type(3),
+  .robo_card p {
+    grid-area: unset;
+  }
+  .text_card_2 img,
+  .robo_card img {
+    grid-row: unset;
+  }
+  .text_card_2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .text_card_2 img {
+    grid-area: 1/2/5/3;
+    justify-self: right;
+    max-width: 100%;
+    padding-top: 40px;
+  }
+  .bg_yellow .text_card_2 img {
+    grid-area: 1 /1/5/2;
+    justify-self: left;
+    padding-right: 20px;
+  }
+  .bio_card {
+    grid-template-columns: 2fr 1fr;
+  }
+  .bio_card img {
+    max-height: 430px;
+  }
   /* Article */
   .one {
     display: none;

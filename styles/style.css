@@ -11,16 +11,13 @@
 img {
   max-width: 100%;
 }
-/* main,
-.hero .container {
-  max-width: 1300px;
-  margin: 0 auto;
-} */
 
 .container {
   display: grid;
 }
-
+.hide {
+  display: none;
+}
 .red {
   color: #d90368;
 }
@@ -232,6 +229,56 @@ nav li {
   position: relative;
   top: -50px;
   padding: 20px;
+}
+
+/* Main */
+.bg_yellow {
+  background-color: #ffd400;
+}
+.width_control {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Article */
+.yellow_container {
+  background-color: #ffd400;
+  width: 100%;
+}
+
+.yellow_wrap {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.yellow_h2 {
+  font-size: 1.8em;
+  text-align: center;
+}
+
+.card_exhibition {
+  background-color: #fff;
+  max-width: 375px;
+}
+
+.card_exhibition p {
+  padding: 0 0 25px 10px;
+}
+
+.card_exhibition img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.yellow_wrap .cta_red {
+  font-size: 1em;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 385px;
 }
 
 /* Footer */

@@ -1,0 +1,40 @@
+/* Hero */
+.hero_background {
+  background-image: url(../images/roberto-nickson-396152.jpg);
+}
+
+.intro-text {
+  background-color: #d90368;
+}
+
+/* Main */
+main section h2 {
+  padding-top: 40px;
+  padding-left: 10px;
+}
+
+main section p {
+  padding: 10px;
+}
+
+.text_card_3 {
+  display: grid;
+  padding-bottom: 40px;
+}
+
+main section img {
+  grid-row: 4/5;
+  max-height: 200px;
+  width: 100%;
+  object-fit: cover;
+  padding: 10px 0;
+}
+
+.teachers img {
+  grid-row: 3/4;
+  object-position: top;
+}
+
+.footer {
+  border-top: none;
+}

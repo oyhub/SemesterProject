@@ -4,32 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/exhibition.css" />
+    <link rel="stylesheet" href="styles/media.css" />
+    <script src="https://kit.fontawesome.com/fa5b77eb46.js" crossorigin="anonymous"></script>
     <title>Community Science Museum</title>
   </head>
 
   <body>
-    <header>
-      <a href="index.html"><img src="/images/logo.png" alt="Logo" /></a>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="explore.html">Explore</a></li>
-          <li><a href="exhibition.html" class="current">Exhibition Spaces</a></li>
-          <li><a href="visit.html">Visit</a></li>
-          <li><a href="involved.html">Get Involved</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+    <header id="header">
+      <div class="menu-top">
+        <a href="index.html" class="logo"><img src="/images/logo.png" alt="Logo" /></a>
+        <label for="hamburger-menu" class="hamburger-menu"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="hamburger-menu" />
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="explore.html">Explore</a></li>
+            <li><a href="exhibition.html" class="current">Exhibition Spaces</a></li>
+            <li><a href="visit.html">Visit</a></li>
+            <li><a href="involved.html">Get Involved</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
 
-      <section>
-        <div>
-          <h1>Exhibition Spaces</h1>
-          <p>
-            We believe science should not be confined to the textbook, but brought to live through exhibits. This is why
-            we have over 1000 different exhibits on the many varied subjects of science to explore. Many of these
-            exhibits are designed for you to interact with and play around to see science come to life (apart from the
-            dinosaur exhibits – they only come to life at night when everyone’s gone home).
-          </p>
+      <section class="hero hero_exhibition">
+        <div class="hero_background"></div>
+        <div class="container">
+          <div class="intro-text">
+            <h1>Exhibition Spaces</h1>
+            <p>
+              We believe science should not be confined to the textbook, but brought to live through exhibits. This is
+              why we have over 1000 different exhibits on the many varied subjects of science to explore. Many of these
+              exhibits are designed for you to interact with and play around to see science come to life (apart from the
+              dinosaur exhibits – they only come to life at night when everyone’s gone home).
+            </p>
+          </div>
         </div>
       </section>
     </header>
@@ -37,149 +48,166 @@
     <main>
       <div>
         <section>
-          <h2>Cosmology</h2>
-          <p>
-            Explore the wonders of our cosmos. Our fantastic exhibition, ‘The Sky Above Us’, explores the night sky and
-            what we can see and know about the universe around us. We’ll locate the various constellations and galaxies
-            that can be seen and learn a bit about the early navigators who used the stars to travel by.
-          </p>
-          <p>
-            Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, to the latest
-            exploration of the planets in our solar system.
-          </p>
-          <img src="images/oyvind-ballari_northern-lights.jpg" alt="Pinetree with northen lights in background" />
+          <div class="width_control text_card_2">
+            <h2>Cosmology</h2>
+            <p>
+              Explore the wonders of our cosmos. Our fantastic exhibition, ‘The Sky Above Us’, explores the night sky
+              and what we can see and know about the universe around us. We’ll locate the various constellations and
+              galaxies that can be seen and learn a bit about the early navigators who used the stars to travel by.
+            </p>
+            <p>
+              Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, to the
+              latest exploration of the planets in our solar system.
+            </p>
+            <img src="images/oyvind-ballari_northern-lights.jpg" alt="Pinetree with northen lights in background" />
+          </div>
+        </section>
+
+        <section class="bg_yellow">
+          <div class="width_control text_card_2">
+            <h2>Evolution</h2>
+            <p>
+              For centuries, philosophers and scientists have wrestled with the question of our origins. Where do we
+              come from and how did we get here? Since Darwin proposed his theory of evolution we have had a framework
+              for exploring and understanding our place in this world.
+            </p>
+            <p>
+              Discover the origins of life on this planet and how the species we know today have evolved our time. You
+              can also take some time to meet a few of the creatures who didn’t survive, including our Woolly Mammoth,
+              the Dodos, and a number of dinosaurs too
+            </p>
+            <img src="images/mammoth-1257288_1920.jpg" alt="Skeleton of mammoth" />
+          </div>
         </section>
 
         <section>
-          <h2>Evolution</h2>
-          <p>
-            For centuries, philosophers and scientists have wrestled with the question of our origins. Where do we come
-            from and how did we get here? Since Darwin proposed his theory of evolution we have had a framework for
-            exploring and understanding our place in this world.
-          </p>
-          <p>
-            Discover the origins of life on this planet and how the species we know today have evolved our time. You can
-            also take some time to meet a few of the creatures who didn’t survive, including our Woolly Mammoth, the
-            Dodos, and a number of dinosaurs too
-          </p>
-          <img src="images/mammoth-1257288_1920.jpg" alt="Skeleton of mammoth" />
+          <div class="width_control text_card_2 bio_card">
+            <h2>Biology and medicine</h2>
+            <p>
+              From micro-organisms to the human body, major breakthroughs in biology are offering us unique insights
+              into the great wonders of the tiny world.
+            </p>
+            <p>
+              For many people their life expectancy is much longer and their quality of life much improved, thanks to
+              the growth of our understanding of medicine. Over a series of exhibits we explore the history of medicine
+              and take a look at some major breakthroughs including the discovery of penicillin and the first heart
+              transplant.
+            </p>
+            <p>
+              Many of our great medicinal discoveries have come not only from the lab, but also from observing animals
+              in the wild. Often our fellow creatures have beat us to it.
+            </p>
+            <img src="images/samuel-zeller-113381.jpg" alt="Model of humans showing organs" />
+          </div>
+        </section>
+
+        <section class="bg_yellow">
+          <div class="width_control text_card_2 robo_card">
+            <h2>Robotics And AI</h2>
+            <p>
+              The information revolution is here and robotics and artificial intelligence are the science of the future.
+              From useful home applications of AI to industrial uses of robotics, the future is here. You can even say
+              hello and shake the hand of Rob the Robot.
+            </p>
+            <img src="images/billetto-editorial-334686.jpg" alt="Kid with VR goggles painting" />
+          </div>
         </section>
 
         <section>
-          <h2>Biology and medicine</h2>
-          <p>
-            From micro-organisms to the human body, major breakthroughs in biology are offering us unique insights into
-            the great wonders of the tiny world.
-          </p>
-          <p>
-            For many people their life expectancy is much longer and their quality of life much improved, thanks to the
-            growth of our understanding of medicine. Over a series of exhibits we explore the history of medicine and
-            take a look at some major breakthroughs including the discovery of penicillin and the first heart
-            transplant.
-          </p>
-          <p>
-            Many of our great medicinal discoveries have come not only from the lab, but also from observing animals in
-            the wild. Often our fellow creatures have beat us to it.
-          </p>
-          <img src="images/samuel-zeller-113381.jpg" alt="Model of humans showing organs" />
-        </section>
-
-        <section>
-          <h2>Robotics And AI</h2>
-          <p>
-            The information revolution is here and robotics and artificial intelligence are the science of the future.
-            From useful home applications of AI to industrial uses of robotics, the future is here. You can even say
-            hello and shake the hand of Rob the Robot.
-          </p>
-          <img src="images/billetto-editorial-334686.jpg" alt="Kid with VR goggles painting" />
-        </section>
-
-        <section>
-          <h2>Ecology</h2>
-          <p>
-            As we learn more and more of the impact humans are having on the planet, the more important it becomes that
-            scientists explore how to create a sustainable future not just for humans but for the whole planet.
-          </p>
-          <p>
-            In our ecology section of the museum, we unpack the dangers we currently face including global warming,
-            extinction of species, and pollution. But we also focus on the positive ways we can all contribute to a
-            brighter future.
-          </p>
-          <img src="images/jason-blackeye-nyL-rzwP-Mk-unsplash.jpg" alt="Wind turbines on snow-capped mountains" />
+          <div class="width_control text_card_2">
+            <h2>Ecology</h2>
+            <p>
+              As we learn more and more of the impact humans are having on the planet, the more important it becomes
+              that scientists explore how to create a sustainable future not just for humans but for the whole planet.
+            </p>
+            <p>
+              In our ecology section of the museum, we unpack the dangers we currently face including global warming,
+              extinction of species, and pollution. But we also focus on the positive ways we can all contribute to a
+              brighter future.
+            </p>
+            <img src="images/jason-blackeye-nyL-rzwP-Mk-unsplash.jpg" alt="Wind turbines on snow-capped mountains" />
+          </div>
         </section>
       </div>
 
-      <article>
-        <h2>Special events and exhibitions</h2>
-        <section>
-          <img src="images/andrew-ruiz-348421.jpg" alt="Museum display of fighter pilot" />
-          <h3>Visiting Professor of aeronautics</h3>
-          <p>
-            It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will
-            be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting
-            ‘space’.
-          </p>
-        </section>
-        <section>
-          <img src="images/roberto-nickson-396152.jpg" alt="Museum overview with an stone elephant" />
-          <h3>Night in the museum</h3>
-          <p>
-            Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science
-            displays. Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science.
-          </p>
-        </section>
+      <article class="bg_yellow yellow_container">
+        <div class="yellow_wrap">
+          <h2 class="yellow_h2">Special events and exhibitions</h2>
+          <section class="card_exhibition">
+            <img src="images/andrew-ruiz-348421.jpg" alt="Museum display of fighter pilot" />
+            <h3>Visiting Professor of aeronautics</h3>
+            <p>
+              It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology
+              will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting
+              ‘space’.
+            </p>
+          </section>
+          <section class="card_exhibition">
+            <img src="images/roberto-nickson-396152.jpg" alt="Museum overview with an stone elephant" />
+            <h3>Night in the museum</h3>
+            <p>
+              Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and
+              science displays. Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of
+              science.
+            </p>
+          </section>
 
-        <section>
-          <img src="images/mariana-proenca-_h0xG4s6NFg-unsplash.jpg" alt="Solar panels on a grass field" />
-          <h3>Energetica exhibition on loan</h3>
-          <p>
-            On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community
-            Science Museum. It’s a series of installations that allow visitors to experience the power of the elements
-            as we harness them. From solar energy powering lighting, to ‘Wind Island’ that shows how turbines are able
-            to use and control wind to create power.
-          </p>
-        </section>
+          <section class="card_exhibition">
+            <img src="images/mariana-proenca-_h0xG4s6NFg-unsplash.jpg" alt="Solar panels on a grass field" />
+            <h3>Energetica exhibition on loan</h3>
+            <p>
+              On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community
+              Science Museum. It’s a series of installations that allow visitors to experience the power of the elements
+              as we harness them. From solar energy powering lighting, to ‘Wind Island’ that shows how turbines are able
+              to use and control wind to create power.
+            </p>
+          </section>
+        </div>
       </article>
     </main>
 
-    <footer>
-      <div>
-        <a href="index.html" class="a_heading">The museum</a>
-        <a href="index.html">Home</a>
-        <a href="involved.html">Get involved</a>
-        <a href="involved.html#volunteer"></a>
-      </div>
+    <footer class="bg_yellow">
+      <div class="footer">
+        <div>
+          <a href="index.html" class="a_heading">The museum</a>
+          <a href="index.html" class="current">Home</a>
+          <a href="involved.html">Get involved</a>
+          <a href="involved.html#volunteer"></a>
+        </div>
 
-      <div>
-        <a href="explore.html" class="a_heading">What to do</a>
-        <a href="explore.html">Explore</a>
-        <a href="exhibition.html" class="current">Exhibitions</a>
-      </div>
+        <div>
+          <a href="explore.html" class="a_heading">What to do</a>
+          <a href="explore.html">Explore</a>
+          <a href="exhibition.html">Exhibitions</a>
+        </div>
 
-      <div>
-        <a href="visit.html" class="a_heading">Come see us</a>
-        <a href="visit.html">Visit</a>
-        <a href="visit.html#maplocation">See map location</a>
-      </div>
+        <div>
+          <a href="visit.html" class="a_heading">Come see us</a>
+          <a href="visit.html">Visit</a>
+          <a href="visit.html#maplocation">See map location</a>
+        </div>
 
-      <div>
-        <a href="contact.html" class="a_heading">Contact us</a>
-        <p>+47 999 99 999</p>
-        <a href="mailto:mail@csm.no">mail@csm.no</a>
-        <p>Museum road 24</p>
-        <p>8001 Bodø</p>
-      </div>
+        <div>
+          <a href="contact.html" class="a_heading">Contact us</a>
+          <p>+47 999 99 999</p>
+          <a href="mailto:mail@csm.no">mail@csm.no</a>
+          <p>Museum road 24</p>
+          <p>8001 Bodø</p>
+        </div>
 
-      <div>
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-youtube"></i>
+        <div class="social" id="social">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+        <p class="copyright">
+          Copyright (c) 2021 <span class="hide">-</span> <span class="copy_block">Community Science Museum</span>
+          <span class="hide">-</span> <span class="copy_block">Org.nr: 999999999</span>
+        </p>
       </div>
-
-      <p>Copyright (c) 2021 - Community Science Museum - Org.nr: 999999999</p>
     </footer>
 
-    <i class="fas fa-arrow-up"></i>
+    <a href="#header" class="arrow"><i class="fas fa-arrow-up"></i></a>
   </body>
 </html>
