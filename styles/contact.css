@@ -1,0 +1,106 @@
+/* Hero */
+.hero_background {
+  background-image: url(../images/pawel-czerwinski--0xCCPIbl3M-unsplash.jpg);
+}
+
+.intro-text {
+  background-color: #d90368;
+}
+.contact_card {
+  margin: 0 auto;
+  width: 100%;
+}
+.contact_grid h3 {
+  grid-area: 1/2/2/6;
+}
+.contact_grid {
+  display: grid;
+  grid-template-columns: 0.5fr auto 5% auto 2fr;
+}
+
+.contact_grid i {
+  font-size: 1.2em;
+}
+.contact_grid i:first-of-type {
+  grid-column: 2/3;
+}
+.contact_grid p:first-of-type {
+  grid-column: 4/5;
+}
+.contact_grid i:nth-of-type(2) {
+  grid-area: 3/2/4/3;
+}
+.contact_grid a {
+  grid-area: 3/4/4/5;
+  font-family: raleway, verdana, sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  padding-bottom: 20px;
+  color: #fff;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.contact_grid i:nth-of-type(3) {
+  grid-area: 4/2/5/3;
+}
+.contact_grid div {
+  grid-area: 4/4/5/5;
+}
+.contact_grid div p:first-of-type {
+  padding-bottom: 5px;
+}
+
+.contact_h2 {
+  margin-top: 40px;
+}
+.contact_h2 h2 {
+  padding-bottom: 5px;
+}
+.contact_h2 p {
+  font-size: 0.9em;
+  color: #048ba8;
+}
+
+.contactform {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.contactform .flex {
+  display: flex;
+  flex-direction: column;
+}
+.contactform label {
+  padding-bottom: 5px;
+  padding-top: 20px;
+}
+
+.contactform input,
+.contactform textarea {
+  border: #091540 1px solid;
+  border-radius: 5px;
+  font-family: raleway, verdana, sans-serif;
+  padding: 3px;
+  font-size: 0.9em;
+}
+.contactform input:focus,
+.contactform textarea:focus {
+  outline: none;
+  border: #d90368 1px solid;
+}
+.contactform textarea {
+  height: 150px;
+}
+
+#submit {
+  margin-top: 20px;
+  background-color: #091540;
+  color: #fff;
+  font-family: rift, helvetica, sans-serif;
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 5px;
+}

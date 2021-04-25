@@ -4,118 +4,139 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/involved.css" />
+    <link rel="stylesheet" href="styles/media.css" />
+    <script src="https://kit.fontawesome.com/fa5b77eb46.js" crossorigin="anonymous"></script>
     <title>Community Science Museum</title>
   </head>
 
   <body>
-    <header>
-      <a href="index.html"><img src="/images/logo.png" alt="Logo" /></a>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="explore.html">Explore</a></li>
-          <li><a href="exhibition.html">Exhibition Spaces</a></li>
-          <li><a href="visit.html">Visit</a></li>
-          <li><a href="involved.html" class="current">Get Involved</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+    <header id="header">
+      <div class="menu-top">
+        <a href="index.html" class="logo"><img src="/images/logo.png" alt="Logo" /></a>
+        <label for="hamburger-menu" class="hamburger-menu"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="hamburger-menu" />
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="explore.html">Explore</a></li>
+            <li><a href="exhibition.html">Exhibition Spaces</a></li>
+            <li><a href="visit.html">Visit</a></li>
+            <li><a href="involved.html" class="current">Get Involved</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
 
-      <section>
-        <div>
-          <h1>Get Involved</h1>
-          <p>
-            There are various ways you can be involved with the museum. Red more below to see how you can support us,
-            volunteer or get a internship here
-          </p>
+      <section class="hero hero_involved">
+        <div class="hero_background"></div>
+        <div class="container">
+          <div class="intro-text">
+            <h1>Get Involved</h1>
+            <p>
+              There are various ways you can be involved with the museum. Red more below to see how you can support us,
+              volunteer or get a internship here
+            </p>
+          </div>
         </div>
       </section>
     </header>
 
     <main>
-      <div>
+      <div class="involved">
         <section>
-          <h2>Support</h2>
-          <p>
-            There are various ways you can support the museum. Donations are very welcome and are an important way we
-            keep this museum open and accessible to the whole community.
-          </p>
-          <p>
-            You can also support us by donating items of interest to the museum’s collections. If you have some item or
-            collection that you think others would enjoy, please let us know by contacting our Collections Department
-            and they will be able to assist you.
-          </p>
-          <img src="images/micheile-henderson-lZ_4nPFKcV8-unsplash.jpg" alt="Plant growing up from pennys" />
+          <div class="width_control text_card_3">
+            <h2>Support</h2>
+            <p>
+              There are various ways you can support the museum. Donations are very welcome and are an important way we
+              keep this museum open and accessible to the whole community.
+            </p>
+            <p>
+              You can also support us by donating items of interest to the museum’s collections. If you have some item
+              or collection that you think others would enjoy, please let us know by contacting our Collections
+              Department and they will be able to assist you.
+            </p>
+            <img src="images/micheile-henderson-lZ_4nPFKcV8-unsplash.jpg" alt="Plant growing up from pennys" />
+          </div>
+        </section>
+
+        <section class="bg_yellow volunteer">
+          <div class="width_control text_card_3">
+            <h2>Volunteer</h2>
+            <p>
+              A number of people volunteer their time and effort to keep the displays in good order and ready for
+              visitors to come and enjoy. Volunteering has its perks including getting to see behind the scenes of a
+              working museum, access to staff-only lectures, and a monthly lunch where all staff and volunteers come
+              together to discuss ideas for future exhibits and strategies for the museum..
+            </p>
+            <p>
+              You can help volunteer in a number of different spheres. Please contact us if you’d like to find out more
+              about how you can get involved.
+            </p>
+            <img src="images/pexels-rodnae-productions-6646852.jpg" alt="Man with volunteer t-shirt" />
+          </div>
         </section>
 
         <section>
-          <h2>Volunteer</h2>
-          <p>
-            A number of people volunteer their time and effort to keep the displays in good order and ready for visitors
-            to come and enjoy. Volunteering has its perks including getting to see behind the scenes of a working
-            museum, access to staff-only lectures, and a monthly lunch where all staff and volunteers come together to
-            discuss ideas for future exhibits and strategies for the museum..
-          </p>
-          <p>
-            You can help volunteer in a number of different spheres. Please contact us if you’d like to find out more
-            about how you can get involved.
-          </p>
-          <img src="images/pexels-rodnae-productions-6646852.jpg" alt="Man with volunteer t-shirt" />
-        </section>
-
-        <section>
-          <h2>Internships</h2>
-          <p>
-            Are you interested in working in a museum? Do you enjoy the fun and excitement of sharing the wonders of
-            nature with people? Well you could be just the right person to enjoy an internship at the museum.
-          </p>
-          <p>
-            You’ll be learning from a number of different academics and people who are passionate about science and
-            sharing it with the wider community.
-          </p>
-          <img src="images/scientific-2040795_1280.jpg" alt="Woman in a laboratory" />
+          <div class="width_control text_card_3">
+            <h2>Internships</h2>
+            <p>
+              Are you interested in working in a museum? Do you enjoy the fun and excitement of sharing the wonders of
+              nature with people? Well you could be just the right person to enjoy an internship at the museum.
+            </p>
+            <p>
+              You’ll be learning from a number of different academics and people who are passionate about science and
+              sharing it with the wider community.
+            </p>
+            <img src="images/scientific-2040795_1280.jpg" alt="Woman in a laboratory" />
+          </div>
         </section>
       </div>
     </main>
 
-    <footer>
-      <div>
-        <a href="index.html" class="a_heading">The museum</a>
-        <a href="index.html">Home</a>
-        <a href="involved.html" class="current">Get involved</a>
-        <a href="involved.html#volunteer"></a>
-      </div>
+    <footer class="bg_yellow">
+      <div class="footer">
+        <div>
+          <a href="index.html" class="a_heading">The museum</a>
+          <a href="index.html" class="current">Home</a>
+          <a href="involved.html">Get involved</a>
+          <a href="involved.html#volunteer"></a>
+        </div>
 
-      <div>
-        <a href="explore.html" class="a_heading">What to do</a>
-        <a href="explore.html">Explore</a>
-        <a href="exhibition.html">Exhibitions</a>
-      </div>
+        <div>
+          <a href="explore.html" class="a_heading">What to do</a>
+          <a href="explore.html">Explore</a>
+          <a href="exhibition.html">Exhibitions</a>
+        </div>
 
-      <div>
-        <a href="visit.html" class="a_heading">Come see us</a>
-        <a href="visit.html">Visit</a>
-        <a href="visit.html#maplocation">See map location</a>
-      </div>
+        <div>
+          <a href="visit.html" class="a_heading">Come see us</a>
+          <a href="visit.html">Visit</a>
+          <a href="visit.html#maplocation">See map location</a>
+        </div>
 
-      <div>
-        <a href="contact.html" class="a_heading">Contact us</a>
-        <p>+47 999 99 999</p>
-        <a href="mailto:mail@csm.no">mail@csm.no</a>
-        <p>Museum road 24</p>
-        <p>8001 Bodø</p>
-      </div>
+        <div>
+          <a href="contact.html" class="a_heading">Contact us</a>
+          <p>+47 999 99 999</p>
+          <a href="mailto:mail@csm.no">mail@csm.no</a>
+          <p>Museum road 24</p>
+          <p>8001 Bodø</p>
+        </div>
 
-      <div>
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-youtube"></i>
+        <div class="social" id="social">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+        <p class="copyright">
+          Copyright (c) 2021 <span class="hide">-</span> <span class="copy_block">Community Science Museum</span>
+          <span class="hide">-</span> <span class="copy_block">Org.nr: 999999999</span>
+        </p>
       </div>
-
-      <p>Copyright (c) 2021 - Community Science Museum - Org.nr: 999999999</p>
     </footer>
 
-    <i class="fas fa-arrow-up"></i>
+    <a href="#header" class="arrow"><i class="fas fa-arrow-up"></i></a>
   </body>
 </html>

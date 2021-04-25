@@ -40,6 +40,28 @@
   .hero_background {
     height: 350px;
   }
+
+  /* Contact */
+  .contact_main {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 30px;
+    align-items: start;
+    margin-top: 20px;
+  }
+  .contact_h2 {
+    margin-top: 0;
+  }
+  .contact_card {
+    max-width: 400px;
+    justify-self: start;
+    margin: unset;
+  }
+  .section_form {
+    width: 100%;
+    max-width: 500px;
+    justify-self: end;
+  }
 }
 
 @media only screen and (min-width: 720px) {
@@ -153,6 +175,18 @@
   .robo_card p {
     grid-area: 2/2/3/3;
   }
+
+  /* Volunteer */
+  .volunteer img {
+    grid-area: 2/1/4/2;
+  }
+  .volunteer p {
+    grid-area: 2/2/3/4;
+    padding-left: 20px;
+  }
+  .volunteer p:nth-of-type(2) {
+    grid-area: 3/2/4/4;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -164,7 +198,9 @@
   }
   .width_control,
   .hero_explore .container,
-  .hero_exhibition .container {
+  .hero_exhibition .container,
+  .hero_involved .container,
+  .hero_contact .container {
     max-width: 1100px;
   }
   /* Header */
@@ -205,6 +241,12 @@
   .hero_exhibition {
     background-image: url(../images/celso-405219.jpg);
     background-position: center;
+  }
+  .hero_involved {
+    background-image: url(../images/library-1132573_1920.jpg);
+  }
+  .hero_contact {
+    background-image: url(../images/pawel-czerwinski--0xCCPIbl3M-unsplash.jpg);
   }
   .hero .container {
     width: 90%;
@@ -330,6 +372,44 @@
   .bio_card img {
     max-height: 430px;
   }
+
+  /* Volunteer */
+  .involved img {
+    grid-row: 1/4;
+    padding-top: 40px;
+  }
+  .involved h2 {
+    grid-area: 1/1/2/2;
+  }
+  .volunteer h2 {
+    grid-area: 1/2/2/4;
+  }
+
+  /* Contact */
+  .contactform {
+    display: grid;
+    grid-template-columns: auto 5% 1fr;
+    row-gap: 20px;
+  }
+  .contactform input,
+  .contactform textarea {
+    grid-column: 3/4;
+  }
+  #submit {
+    grid-column: 3/4;
+  }
+  .contactform label {
+    justify-self: end;
+    padding: 0;
+  }
+  .contact_h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .section_form {
+    max-width: 650px;
+  }
   /* Article */
   .one {
     display: none;
@@ -425,9 +505,7 @@
     grid-template-columns: 500px 1fr auto;
     height: 100px;
   }
-  nav ul li {
-    font-size: 0.9em;
-  }
+
   /* Index */
   .small_h2 {
     font-size: 1.7em;
@@ -462,6 +540,11 @@
   .yellow_h2 {
     font-size: 2em;
   }
+
+  /* Contact */
+  .contact_card p {
+    padding-left: 0;
+  }
   /* Footer */
   .footer {
     grid-template-columns: repeat(5, 1fr);
@@ -473,6 +556,12 @@
     display: flex;
     flex-direction: column;
     justify-self: center;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  nav a {
+    font-size: 1.5em;
   }
 }
 

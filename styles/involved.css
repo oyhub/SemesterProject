@@ -1,12 +1,9 @@
 /* Hero */
 .hero_background {
-  background-image: url(../images/roberto-nickson-396152.jpg);
+  background-image: url(../images/library-1132573_1920.jpg);
 }
 
-.intro-text {
-  background-color: #d90368;
-}
-
+/* Main */
 main section h2 {
   padding-top: 40px;
   padding-left: 10px;
@@ -20,20 +17,15 @@ main section p {
   display: grid;
   padding-bottom: 40px;
 }
-
-main section img {
-  grid-row: 4/5;
-  max-height: 200px;
+.text_card_3 img {
+  grid-row: 3/4;
+  padding: 10px;
+  max-height: 350px;
   width: 100%;
   object-fit: cover;
-  padding: 10px 0;
 }
 
-.teachers img {
-  grid-row: 3/4;
-  object-position: top;
-}
-
+/* Footer */
 .footer {
   border-top: none;
 }

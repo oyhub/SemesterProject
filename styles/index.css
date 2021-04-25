@@ -24,12 +24,7 @@
   margin: 10px 0;
 }
 .card_blue {
-  background-color: #048ba8;
-  color: #fff;
-  width: 90%;
   margin: 0 auto 30px auto;
-  padding: 20px;
-  display: grid;
 }
 .card_blue ul {
   grid-column: 2/3;
