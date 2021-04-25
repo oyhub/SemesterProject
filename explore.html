@@ -4,30 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/explore.css" />
+    <link rel="stylesheet" href="styles/media.css" />
     <title>Community Science Museum</title>
   </head>
 
   <body>
-    <header>
-      <a href="index.html"><img src="/images/logo.png" alt="Logo" /></a>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="explore.html" class="current">Explore</a></li>
-          <li><a href="exhibition.html">Exhibition Spaces</a></li>
-          <li><a href="visit.html">Visit</a></li>
-          <li><a href="involved.html">Get Involved</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+    <header id="header">
+      <div class="menu-top">
+        <a href="index.html" class="logo"><img src="/images/logo.png" alt="Logo" /></a>
+        <label for="hamburger-menu" class="hamburger-menu"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="hamburger-menu" />
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="explore.html" class="current">Explore</a></li>
+            <li><a href="exhibition.html">Exhibition Spaces</a></li>
+            <li><a href="visit.html">Visit</a></li>
+            <li><a href="involved.html">Get Involved</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
 
-      <section>
-        <div>
-          <h1>Explore at the museum</h1>
-          <p>
-            The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and
-            perhaps even ignite a lifelong passion to continue the exploration of the world around us.
-          </p>
+      <section class="hero">
+        <div class="hero_background"></div>
+        <div class="container">
+          <div class="intro-text">
+            <h1>Explore at the museum</h1>
+            <p>
+              The aim of our museum is to create a space where everyone can experience the wonders of our discoveries
+              and perhaps even ignite a lifelong passion to continue the exploration of the world around us.
+            </p>
+          </div>
         </div>
       </section>
     </header>
@@ -82,43 +92,47 @@
       </div>
     </main>
     <footer>
-      <div>
-        <a href="index.html" class="a_heading">The museum</a>
-        <a href="index.html">Home</a>
-        <a href="involved.html">Get involved</a>
-        <a href="involved.html#volunteer"></a>
-      </div>
+      <div class="footer">
+        <div>
+          <a href="index.html" class="a_heading">The museum</a>
+          <a href="index.html" class="current">Home</a>
+          <a href="involved.html">Get involved</a>
+          <a href="involved.html#volunteer"></a>
+        </div>
 
-      <div>
-        <a href="explore.html" class="a_heading">What to do</a>
-        <a href="explore.html" class="current">Explore</a>
-        <a href="exhibition.html">Exhibitions</a>
-      </div>
+        <div>
+          <a href="explore.html" class="a_heading">What to do</a>
+          <a href="explore.html">Explore</a>
+          <a href="exhibition.html">Exhibitions</a>
+        </div>
 
-      <div>
-        <a href="visit.html" class="a_heading">Come see us</a>
-        <a href="visit.html">Visit</a>
-        <a href="visit.html#maplocation">See map location</a>
-      </div>
+        <div>
+          <a href="visit.html" class="a_heading">Come see us</a>
+          <a href="visit.html">Visit</a>
+          <a href="visit.html#maplocation">See map location</a>
+        </div>
 
-      <div>
-        <a href="contact.html" class="a_heading">Contact us</a>
-        <p>+47 999 99 999</p>
-        <a href="mailto:mail@csm.no">mail@csm.no</a>
-        <p>Museum road 24</p>
-        <p>8001 Bodø</p>
-      </div>
+        <div>
+          <a href="contact.html" class="a_heading">Contact us</a>
+          <p>+47 999 99 999</p>
+          <a href="mailto:mail@csm.no">mail@csm.no</a>
+          <p>Museum road 24</p>
+          <p>8001 Bodø</p>
+        </div>
 
-      <div>
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-youtube"></i>
+        <div class="social" id="social">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+        <p class="copyright">
+          Copyright (c) 2021 <span class="hide">-</span> <span class="copy_block">Community Science Museum</span>
+          <span class="hide">-</span> <span class="copy_block">Org.nr: 999999999</span>
+        </p>
       </div>
-
-      <p>Copyright (c) 2021 - Community Science Museum - Org.nr: 999999999</p>
     </footer>
 
-    <i class="fas fa-arrow-up"></i>
+    <a href="#header" class="arrow"><i class="fas fa-arrow-up"></i></a>
   </body>
 </html>
