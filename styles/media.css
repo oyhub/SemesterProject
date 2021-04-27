@@ -248,6 +248,10 @@
   .hero_contact {
     background-image: url(../images/pawel-czerwinski--0xCCPIbl3M-unsplash.jpg);
   }
+  .hero_visit {
+    background-image: url(../images/scott-webb-102825.jpg);
+    background-position-y: -60px;
+  }
   .hero .container {
     width: 90%;
     height: 100%;
@@ -410,6 +414,17 @@
   .section_form {
     max-width: 650px;
   }
+
+  /* Visit */
+  .visit_main {
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    gap: 20px;
+  }
+  #shop p {
+    padding-bottom: 40px;
+  }
+
   /* Article */
   .one {
     display: none;
@@ -542,7 +557,8 @@
   }
 
   /* Contact */
-  .contact_card p {
+  .contact_card p,
+  .contact_card h3 {
     padding-left: 0;
   }
   /* Footer */

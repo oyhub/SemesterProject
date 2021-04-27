@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="styles/involved.css" />
+    <link rel="stylesheet" href="styles/visit.css" />
     <link rel="stylesheet" href="styles/media.css" />
     <script src="https://kit.fontawesome.com/fa5b77eb46.js" crossorigin="anonymous"></script>
     <title>Community Science Museum</title>
@@ -22,17 +22,17 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="explore.html">Explore</a></li>
             <li><a href="exhibition.html">Exhibition Spaces</a></li>
-            <li><a href="visit.html">Visit</a></li>
+            <li><a href="visit.html" class="current">Visit</a></li>
             <li><a href="involved.html">Get Involved</a></li>
-            <li><a href="contact.html" class="current">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
       </div>
 
-      <section class="hero hero_involved">
+      <section class="hero hero_visit">
         <div class="hero_background"></div>
         <div class="container">
-          <div class="intro-text">
+          <div class="intro-text bg_yellow">
             <h1>Visit us</h1>
             <p>
               Come visit us, and take part in all the fun we have here. Our museum is located in the senter of Bodø city
@@ -42,9 +42,9 @@
       </section>
     </header>
 
-    <main>
+    <main class="width_control visit_main">
       <div>
-        <section>
+        <section class="location">
           <h2>Location</h2>
           <p>The museum is located at Museum road 24 in the senter of Bodø city.</p>
           <p>
@@ -52,13 +52,15 @@
             museum.
           </p>
           <p>All of the busses in Bodø as a stop 50m north of the museum.</p>
-          <img src="images/google-maps.JPG" alt="Map with location on museum" />
+          <div id="map">
+            <img src="images/google-maps.JPG" alt="Map with location on museum" />
+          </div>
         </section>
         <div>
           <section>
             <h2>Hours</h2>
             <p>This summer from June 25-July 31, we have extended opening hours every Saturday and Sunday.</p>
-            <ul>
+            <ul class="visit_hours">
               <li>Monday: Closed</li>
               <li>Tuesday: 10:00-16:00</li>
               <li>Wednesday: 10:00-16:00</li>
@@ -68,7 +70,7 @@
               <li>Sunday: <span class="overline">09:00-13:00</span> <span class="red">09:00-16:00</span></li>
             </ul>
           </section>
-          <section>
+          <section id="shop">
             <h2>Shop</h2>
             <p>
               Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that
@@ -78,7 +80,7 @@
         </div>
       </div>
       <div>
-        <section>
+        <section class="card_blue">
           <h3>Admission</h3>
           <p>The entrance is free for all.</p>
           <p>
@@ -91,7 +93,7 @@
           </p>
         </section>
 
-        <section>
+        <section class="card_red">
           <h3>Accessibility</h3>
           <p>
             The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the
@@ -99,7 +101,7 @@
           </p>
         </section>
 
-        <section>
+        <section class="card_blue">
           <h3>Food and drink</h3>
           <p>
             There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and
@@ -109,7 +111,7 @@
       </div>
     </main>
 
-    <footer class="bg_yellow">
+    <footer>
       <div class="footer">
         <div>
           <a href="index.html" class="a_heading">The museum</a>
