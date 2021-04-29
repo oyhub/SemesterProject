@@ -341,7 +341,7 @@ footer {
 #submit:hover {
   color: #091540;
   background-color: #fff;
-  outline: #091540 1px solid;
+  border: #091540 1px solid;
 }
 
 .cta_red:hover {
