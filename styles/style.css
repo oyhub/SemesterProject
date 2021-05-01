@@ -186,6 +186,10 @@ nav a {
 }
 
 /* Header */
+header {
+  background-color: #fff;
+  z-index: 999;
+}
 .menu-top {
   height: 70px;
   width: 100%;
@@ -201,6 +205,7 @@ nav a {
 .logo {
   padding-left: 5px;
   max-height: 105px;
+  z-index: 998;
 }
 
 #hamburger-menu,
@@ -212,6 +217,7 @@ nav {
   grid-column: 3/4;
   font-size: 1.5em;
   color: #091540;
+  z-index: 998;
 }
 
 #hamburger-menu:checked ~ nav {
@@ -345,8 +351,5 @@ footer {
 }
 
 .cta_red:hover {
-  /*   color: #0915409a;
-  background-color: #ffd400;
-  outline: #091540 1px solid; */
   background-color: #6e0134;
 }
