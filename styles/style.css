@@ -340,7 +340,9 @@ footer {
 }
 
 /* Effects */
-
+header nav a:hover {
+  color: #b10053;
+}
 #submit,
 .social * {
   cursor: pointer;
