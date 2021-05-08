@@ -4,7 +4,7 @@
 }
 
 .intro-text {
-  background-color: #d90368;
+  background-color: #b10053;
 }
 .contact_card {
   margin: 0 auto;
@@ -58,7 +58,7 @@
 }
 .contact_h2 p {
   font-size: 0.9em;
-  color: #048ba8;
+  color: #006177;
 }
 
 .contactform {
@@ -103,4 +103,5 @@
   font-weight: 600;
   letter-spacing: 2px;
   padding: 5px;
+  transition: 0.5s;
 }

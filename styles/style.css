@@ -149,10 +149,12 @@ nav a {
   padding: 5px;
   letter-spacing: 2px;
   max-height: 76px;
+  transition: 0.5s;
 }
 
 .cta_red {
-  background-color: #d90368;
+  background-color: #b10053;
+  border: #b10053 1px solid;
   color: #fff;
   width: 100%;
   align-self: center;
@@ -241,7 +243,7 @@ nav li {
 }
 
 .intro-text {
-  background-color: #048ba8;
+  background-color: #006177;
   width: 90%;
   margin: 0 auto;
   position: relative;
@@ -259,14 +261,14 @@ nav li {
 }
 .card_blue,
 .card_red {
-  background-color: #048ba8;
+  background-color: #006177;
   color: #fff;
   width: 90%;
   padding: 20px;
   display: grid;
 }
 .card_red {
-  background-color: #d90368;
+  background-color: #b10053;
 }
 
 /* Article */
@@ -338,6 +340,7 @@ footer {
 }
 
 /* Effects */
+
 #submit,
 .social * {
   cursor: pointer;
@@ -351,5 +354,9 @@ footer {
 }
 
 .cta_red:hover {
-  background-color: #6e0134;
+  /* background-color: unset; */
+  border: #fff 1px solid;
+  border-radius: 70px;
+  transition: 1s;
+  letter-spacing: 5px;
 }
