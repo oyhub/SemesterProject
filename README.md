@@ -1,6 +1,6 @@
 # Community Science Museum
 
-![Community Science Museum web page](/images/csm.jpg)
+![Community Science Museum web page](/images/CSM.jpg)
 
 School project where we had to create a website for a museum.
 
